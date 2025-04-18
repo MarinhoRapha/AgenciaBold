@@ -1,0 +1,558 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.center{
+  display: flex;
+  max-width: 1280px;
+  padding: 0 2%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+section.main{
+  background-image: url('../images/bg.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  padding: 20px 0 80px 0;
+}
+
+.menu{
+  display: flex;
+  width: 100%;
+}
+
+.logo-menu{
+  width: 50%;
+}
+
+.menu-itens{
+  width: 50%;
+
+}
+
+.menu-itens a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.menu-itens a:hover{
+  border-bottom: 3px solid #ffdd33;
+  border-radius: 1px;
+}
+
+.menu-itens a.contact-btn{
+  background-color: #0f3fd3;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.menu-itens a.contact-btn:hover{
+  border: 0;
+}
+
+.mockup{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mockup h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+.mockup span{
+  font-weight: bold;
+}
+.mockup p{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.mockup img{
+  width: 100%;
+  max-width: 900px;
+}
+
+SECTION.Clientes{
+  padding: 100px 0;
+}
+
+section.Clientes img{
+    width: 20%;
+}
+
+section.about{
+  padding: 40px 0;
+  background-color: #FBFCFE;
+}
+
+section.about > .center h2{
+  font-size: 64px;
+  text-align: center;
+  width: 100%;
+}
+
+section.about > .center > p{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #b6b5b5;
+  text-align: center;
+  width: 100%;
+}
+
+.diferenciais{
+  display: flex;
+  margin-top: 50px;
+}
+
+.diferencial-single{
+  text-align: left;
+  width: calc(93%/3);
+  box-shadow: 0 20px 40px #4343aa31;
+  margin-right: 2%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.diferencial-single img{
+  max-width: 110px;
+}
+
+.diferencial-single h3{
+  font-size: 20px;
+  color: black;
+  margin: 20px 0;
+}
+
+.diferencial-single p{
+  font-size: 13px;
+  color: #7E92AC;
+  margin-bottom: 20px;
+}
+
+section.banner{
+  background-image: url(../images/banner_meio.svg);
+  padding: 20px 10px;
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+section.banner h2, h4{
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+section.banner h2{
+  font-size:50px;
+}
+
+section.banner a{
+  text-decoration: none;
+  color: #0f3fd3;
+  display: inline-block;
+  background-color: #ffdd33;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.beneficios{
+  margin-top: 40px;
+  padding: 50px 0;
+}
+
+section.beneficios > .center{
+  max-width: 1480px;
+}
+
+.beneficio-lista{
+  width: 50%;
+}
+
+.beneficio-lista img{
+  width: 70px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.beneficio-lista h1{
+  font-size: 45px;
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.beneficio-lista p {
+  font-size: 14px;
+  width: 80%;
+  vertical-align: middle;
+  color: #7E92AC;
+  padding: 5px 0;
+}
+
+.beneficio-lista span{
+  display: inline-block;
+  width: calc(100% - 70px)
+}
+
+.img-beneficios{
+  width: 50%;
+}
+
+.img-beneficios img{
+  width: 100%;
+}
+
+.beneficio-lista a{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0f3fd3;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 4%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+section.depoimentos{
+  margin-top: 40px;
+  padding: 40px;
+  background-color: #fbfcfe;
+}
+
+section.depoimentos h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.container-slider{
+  overflow: hidden;
+  padding:40px 0; 
+}
+
+.box-slider{
+  float: left;
+  background-color:rgb(233, 233, 233);
+  text-align: center;
+  padding:15px;
+  border-radius:10px;
+}
+
+.box-slider p {
+  color: #7e7e7e;
+}
+
+section.contato{
+  padding: 40px 2%;
+  text-align: center;
+}
+section.contato > .center{
+  justify-content: center;
+}
+
+section.contato h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.contato input[type=text],.contato input[type=email]{
+  width: 100%;
+  height: 55px;
+  border-radius: 13px;
+  background-color: #FBFCFE;
+  border: 1px solid #c3CCe8;
+  padding: 4px 10px;
+  margin: 10px 0;
+  outline: 0;
+}
+
+.contato textarea{
+  width: 100%;
+  height: 150px;
+  border-radius: 13px;
+  background-color: #FBFCFE;
+  border: 1px solid #c3CCe8;
+  padding: 10px;
+  margin: 10px 0;
+  outline: 0;
+  resize: none;
+}
+
+.contato input[type=submit]{
+  width: 100%;
+  height: 55px;
+  border-radius: 13px;
+  background-color: #255AFF;
+  border: 0;
+  color: white;
+  padding: 4px 10px;
+  margin: 10px 0;
+  outline: 0;
+}
+
+footer{
+  background-color: #255AFF;
+  padding: 30px 0;
+}
+
+footer h3{
+  color: white;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+footer > div.center > div.menu-itens{
+  width: 50%;
+}
+
+footer > div.center > div.texto-footer{
+  width: 50%;
+}
+
+.menu-itens-mobile{
+  display: none;
+  width: 50%;
+
+}
+
+.menu-itens-mobile i {
+  color: white;
+  cursor: pointer;
+  font-size: 23px;
+  position: relative;
+  top: 12px;
+}
+
+
+
+
+
+
+
+/****SLICK SLIDER****/
+
+.slick-slide {
+  margin-left:27px;
+}
+
+.slick-list {
+  margin-left:-27px;
+}
+
+
+.slick-dotted ul{
+  display: block;
+list-style-type: none;
+text-align: center;
+position: relative;
+top:30px;
+}
+
+.slick-dotted li{
+display: inline-block;
+margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+outline: 0;
+}
+
+.slick-dotted li button{
+width: 16px;
+height: 16px;
+border-radius: 8px;
+color: #d8d8d8;
+border-width: 0;
+background: #d8d8d8;
+opacity: 1;
+cursor: pointer;
+}
+
+li.slick-active button{
+background: #373855;
+color: #373855;
+}
+
+/****SLICK SLIDER****/
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .beneficio-lista,.img-beneficios{
+      width: 100%;
+      padding: 0 5%;
+      margin-bottom: 50px;
+    }
+    
+    .beneficio-lista img{
+      vertical-align: middle;
+    }
+
+    .beneficio-lista h1{
+      text-align: center;
+    }
+    
+    .img-beneficios{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-beneficios img{
+      max-width: 700px;
+    }
+
+    footer > div.center > div.menu-itens{
+      width: 60%;
+    }
+    
+    footer > div.center > div.texto-footer{
+      width: 40%;
+    }
+    
+}
+
+@media (max-width: 918px){
+  footer > div.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer > div.center > div.menu-itens,  footer > div.center > div.texto-footer{
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  section.main > div.center > div.menu > div.menu-itens{display: none;}
+
+  .menu-itens-mobile{
+    display: block;
+    text-align: right;
+  }
+
+  .menu-mobile{
+    opacity: 0;
+    transition: .3s ease ;
+    position: absolute;
+    transform: translateY(0);
+    left: 0;
+    top: 70px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .show-menu{
+    opacity: 1;
+    transform: translateY(10%);
+  }
+
+  .menu-mobile a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 2%;
+    color: #255AFF;
+    font-weight: bold;
+    border-bottom: 1px solid #0f3fd3;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .diferenciais{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .diferencial-single{
+    width: 90%;
+    margin-right: 0;
+  }
+
+  section.Clientes > .center{
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.Clientes{
+    text-align: center;
+  }
+  section.Clientes img{
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .beneficio-lista img{
+    vertical-align: middle;
+  }
+
+  .beneficio-lista h1{
+    font-size: 35px;
+  }
+
+  section.about > .center h2{
+    font-size: 35px;
+  }
+
+  section.depoimentos h1,section.contato h1{
+    font-size: 35px;
+  }
+}
+
+
+@media (max-width: 558px){
+  footer > div.center > div.menu-itens{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  footer > div.center > div.menu-itens > a{
+    margin: 5px 0;
+  }
+
+  footer > div.center > div.texto-footer{
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .mockup h1{
+    font-size: 35px;
+  }
+}
